@@ -1,3 +1,4 @@
+# do not use this implementation in production setup, instead use Spark MLLib API
 import findspark
 findspark.init('/home/hatef/spark/')
 from pyspark import SparkConf, SparkContext
